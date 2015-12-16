@@ -14,6 +14,7 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class TryLockOne {
    private Lock lock = new ReentrantLock();
+   //private Lock lock = new ReentrantLock(true);  使用公平锁
 
     public static void main(String[] args) {
         final TryLockOne tryLockOne = new TryLockOne();
