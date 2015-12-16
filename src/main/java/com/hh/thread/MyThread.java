@@ -13,6 +13,6 @@ public class MyThread extends Thread {
 
     @Override
     public void run() {
-        System.out.println("name:"+name+" 子线程ID:"+Thread.currentThread().getId());
+        System.out.println("name为:"+name+" 子线程ID:"+Thread.currentThread().getId());
     }
 }
